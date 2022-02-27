@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=VT323&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=VT323&display=swap");
 
 body {
   margin: 20px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   color: #333;
 }
 a {
-  color: rgb(3, 196, 154);
+  color: darkviolet;
 }
 img {
   max-width: 100%;
@@ -32,7 +32,19 @@ nav h1 {
   grid-template-columns: 1fr 1fr;
   gap: 30px;
 }
-.offers, .products {
+.offers,
+.products {
   display: flex;
   gap: 20px;
+}
+.banner {
+  width: 100%;
+}
+button {
+  padding: 0.8rem 1.2rem;
+  font-size: 1rem;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  background-color: darkviolet;
 }
